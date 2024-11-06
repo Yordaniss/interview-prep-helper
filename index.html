@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Skills Practice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Job Skills Practice</h1>
+
+    <div id="job-description-section">
+      <h2>Enter Job Description</h2>
+      <textarea id="jobDescription" placeholder="Enter job description here..."></textarea>
+      <button onclick="fetchQuestions()">Get Practice Questions</button>
+    </div>
+
+    <div id="questions-section" style="display: none;">
+      <h2>Practice Questions</h2>
+      <div id="questions"></div>
+    </div>
+
+    <div id="feedback-section" style="display: none;">
+      <h2>Feedback</h2>
+      <div id="feedback"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
